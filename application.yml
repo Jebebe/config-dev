@@ -1,6 +1,3 @@
-server:
-  port: 9001
-
-spring:
-  application:
-    name: youxuan-goods-service
+#此处配置所有服务公共配置
+oss:
+  name: 开发名称
