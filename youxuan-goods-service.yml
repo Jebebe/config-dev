@@ -10,4 +10,4 @@ spring:
     timeout: 5000
   datasource:
     hikari:
-      catalog: goods_service
+      catalog: youxuandb
