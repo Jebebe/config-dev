@@ -4,3 +4,10 @@ server:
 spring:
   application:
     name: youxuan-goods-service
+  redis:
+    database:
+      sync: 10
+    timeout: 5000
+  datasource:
+    hikari:
+      catalog: goods_service
