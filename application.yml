@@ -26,8 +26,8 @@ spring:
     username:
     password:
 
-#logging:
-#  config: classpath:logback.xml
+logging:
+  config: classpath:logback.xml
 
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Mapper.xml
