@@ -1,0 +1,16 @@
+# 此处配置该服务自己的配置
+server:
+  port: 9001
+spring:
+  application:
+    name: youxuan-goods-center
+  redis:
+    database:
+      sync: 10
+    timeout: 5000
+  datasource:
+    hikari:
+      catalog: youxuan-goods-center
+    url: jdbc:mysql://127.0.0.1:3306/youxuan-goods-center?autoReconnect=true&useSSL=false&serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
