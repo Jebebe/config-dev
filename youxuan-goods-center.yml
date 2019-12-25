@@ -1,9 +1,5 @@
 # 此处配置该服务自己的配置
-server:
-  port: 9001
 spring:
-  application:
-    name: youxuan-goods-center
   redis:
     database:
       sync: 10
