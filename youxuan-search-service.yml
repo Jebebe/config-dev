@@ -1,0 +1,20 @@
+# 此处配置该服务自己的配置
+server:
+  redis:
+    database:
+      sync: 10
+    timeout: 5000
+  datasource:
+    hikari:
+      catalog: youxuan-search-service
+
+spring:
+  data:
+    elasticsearch:
+      cluster-name: es-cluster-application
+      cluster-nodes: http://10.18.190.10:9300
+  elasticsearch:
+    jest:
+      connection-timeout: 5
+    rest:
+      uris: ["http://10.18.190.10:9200/"]
