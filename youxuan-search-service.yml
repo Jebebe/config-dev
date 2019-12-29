@@ -9,7 +9,7 @@ server:
       catalog: youxuan-search-service
 
 es:
-  cluster-name: es-cluster-application
+  cluster-name: es-application
   host: http://10.18.190.10
   port: 9300
   index: youxuan
