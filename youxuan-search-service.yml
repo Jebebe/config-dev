@@ -10,7 +10,7 @@ server:
 
 es:
   cluster-name: es-application
-  host: http://10.18.190.10
+  host: 10.18.190.10
   port: 9300
   index: youxuan
   type: item
