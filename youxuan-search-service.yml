@@ -1,5 +1,5 @@
 # 此处配置该服务自己的配置
-server:
+spring:
   redis:
     database: 0
     timeout: 200
