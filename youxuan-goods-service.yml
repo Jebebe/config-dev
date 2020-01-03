@@ -1,9 +1,9 @@
 # 此处配置该服务自己的配置
 server:
   redis:
-    database:
-      sync: 10
-    timeout: 5000
+    database: 0
+    timeout: 200
+
   datasource:
     hikari:
       catalog: youxuan-goods-service
