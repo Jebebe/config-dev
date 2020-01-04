@@ -10,7 +10,7 @@ spring:
 
 es:
   cluster-name: es-application
-  host: 10.18.190.11
+  host: 192.168.10.11
   port: 9300
   index: youxuan
   type: item
